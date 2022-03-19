@@ -1,9 +1,0 @@
-{
-    "version": 3,
-    "mappings": "AAEK,AAAD,wBAAO,AAAC,CACN,OAAO,CAAE,OAAO,CAChB,WAAW,CAAE,SAAS,CACtB,UAAU,CAAE,MAAM,CAClB,WAAW,CAAE,GAAG,CAChB,SAAS,CAAE,IAAI,CACf,WAAW,CAAE,IAAI,CACjB,KAAK,CAAE,OAAO,CACf",
-    "sources": [
-        "../scss/blocks/section.scss"
-    ],
-    "names": [],
-    "file": "section.css"
-}

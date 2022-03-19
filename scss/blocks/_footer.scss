@@ -1,0 +1,109 @@
+.footer-container {
+  padding-top: 257px;
+  .contact {
+    justify-content: space-between;
+    display: flex;
+    .contact-img {
+      width: 33%;
+    }
+    .contact-part {
+      width: 67%;
+      padding: 2%;
+      &-title {
+        @include smollheader;
+      }
+      &-text {
+        @include box-text;
+        margin-top: 25px;
+      }
+      .form {
+        align-items: center;
+        .input {
+          border: 1px solid #8f95a5;
+          border-radius: 10px;
+          width: 450px;
+          padding: 25px 33px;
+          outline: none;
+          font-size: 16px;
+          line-height: 24px;
+          color: #8f95a5;
+        }
+        .button {
+          padding: 21px 82px;
+          background: #263238;
+          border-radius: 10px;
+          font-weight: 500;
+          font-size: 20px;
+          line-height: 30px;
+          color: #ffffff;
+        }
+      }
+    }
+  }
+  .logo {
+    margin-top: 131px;
+    &-part {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 31px;
+      &-text {
+        font-size: 24px;
+        line-height: 36px;
+        color: #8f95a5;
+      }
+    }
+  }
+}
+@media (max-width: 992px) {
+  .footer-container {
+    padding-top: 136px;
+    .contact {
+      .contact-part {
+        padding: 2%;
+        &-title {
+          font-size: 36px;
+          line-height: 70px;
+        }
+        &-text {
+          font-size: 16px;
+          line-height: 24px;
+          margin-top: 15px;
+        }
+        .form {
+          align-items: center;
+          margin-top: 15px;
+          .input {
+            border: 1px solid #8f95a5;
+            border-radius: 10px;
+            width: 323px;
+            padding: 17px 30px;
+            outline: none;
+            font-size: 14px;
+            line-height: 21px;
+          }
+          .button {
+            padding: 17px 56px;
+            background: #263238;
+            border-radius: 10px;
+            font-size: 14px;
+            line-height: 21px;
+          }
+        }
+      }
+    }
+    .logo {
+      margin-top: 131px;
+      &-part {
+        display: flex;
+        justify-content: space-between;
+        margin: 31px 0;
+
+        &-text {
+          font-size: 16px;
+          line-height: 24px;
+          color: #8f95a5;
+        }
+      }
+    }
+  }
+}

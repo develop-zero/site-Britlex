@@ -1,0 +1,60 @@
+@mixin listNull {
+  text-decoration: none;
+  list-style-type: none;
+}
+@mixin text {
+  font-family: "Poppins";
+  font-size: 16px;
+  line-height: 24px;
+  color: #8f95a5;
+}
+@mixin smollheader {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 80px;
+  color: #000000;
+}
+@mixin part-title {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 80px;
+  color: #263238;
+}
+@mixin part-text {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #8f95a5;
+}
+@mixin part-link {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: #ffffff;
+  background: #263238;
+  border-radius: 5px;
+}
+@mixin box-text {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #8f95a5;
+}
+@mixin pricing-title {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 48px;
+  color: #263238;
+}
